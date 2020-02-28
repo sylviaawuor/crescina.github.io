@@ -1,0 +1,272 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Medipoint / Cart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+</head>
+
+<body>
+<div class="container">
+
+    <header>
+
+        <div class="desktop-header">
+
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png"></a>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="stores.html">Find Stores</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="media.html">Media</a></li>
+                </ul>
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li class="product-swap"><a href="cart.html"><span class="fa fa-shopping-cart"></span>Cart</a></li>
+                    <li><a href="callto:0723456789"><span class="fa fa-phone"></span>0723456789</a></li>
+                    <li><a href="mailto:info@medipoint.co.ke "><span class="fa fa-envelope"></span>info@medipoint.co.ke</a></li>
+                    <li class="product-swap"><a href="">Fillerina</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <!--======================================== MOBILE HEADER ===============================================-->
+
+        <div class="mobile-header">
+            <div class="mobile-logo-wrapper">
+                <div class="mobile-logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></div>
+                <input type="checkbox" id="toggle" />
+                <label for="toggle">
+                    <i id="bars" class="mobile-menu-icon fa fa-bars fa-fw"></i>
+                    <i id="cross" class="mobile-menu-icon fa fa-times fa-fw"></i>
+                </label>
+            </div>
+
+
+            <div class="mobile-menu">
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="stores.html">Find Stores</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="cart.html" class="active-mobile-link"><span class="fa fa-shopping-cart"></span>Cart</a></li>
+                    <li><a href="callto:0723456789"><span class="fa fa-phone"></span>0723456789</a></li>
+                    <li><a href="mailto:info@medipoint.co.ke "><span class="fa fa-envelope"></span>info@medipoint.co.ke</a></li>
+                    <li class="product-swap"><a href="">Fillerina</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <!--======================================== MOBILE HEADER ===============================================-->
+
+
+
+    </header>
+
+    <section>
+
+        <div class="cart-wrapper">
+
+            <table class="shop-table">
+
+                <thead>
+
+                <tr>
+
+                    <th class="product-thumbnail">&nbsp;</th>
+                    <th class="product-name">Product</th>
+                    <th class="product-price">Price</th>
+                    <th class="product-quantity">Quantity</th>
+                    <th class="product-subtotal">Total</th>
+                    <th class="product-remove">Remove Item</th>
+
+                </tr>
+
+                </thead>
+
+                <tbody>
+
+                <tr class="cart-item">
+
+
+
+                    <td class="product-thumbnail">
+                        <a href="single-product.html"><img src="images/product1.png" class="cart-item-thumbnail" alt=""></a></td>
+
+                    <td class="product-name" data-title="Product">
+                        <a href="single-product.html">Crescina HFCC</a>	</td>
+
+                    <td class="product-price" data-title="Price">
+                        <span class="item-price-amount">KShs 200.00</span></td>
+
+                    <td class="product-quantity" data-title="Quantity">
+                        <div class="quantity">
+
+                            <input type="number" id="" class="input-text qty text"><div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>
+                        </div>
+                    </td>
+
+                    <td class="product-subtotal" data-title="Total">
+                        <span class="item-total-amount">KShs 200.00</span></td>
+                    <td class="product-remove">
+                        <a href="" class="remove" aria-label="Remove this item" data-product_id="15" data-product_sku=""><span class="funga">×</span></a></td>
+                </tr>
+
+
+                <tr>
+
+                    <td colspan="6" class="actions">
+
+                        <div class="coupon">
+                            <label for="">Coupon:</label> <input type="text" name="coupon_code" class="input-text" id="" value="" placeholder="Coupon code"> <button type="submit" class="button" name="apply_coupon" value="Apply coupon">Apply coupon</button>
+                        </div>
+
+                        <button type="submit" class="button update_cart" name="update_cart" value="Update cart" disabled="">Update cart</button>
+
+
+                    </td>
+
+                </tr>
+
+                </tbody>
+
+            </table>
+
+                <div class="cart-totals">
+
+
+                    <h2>Cart totals</h2>
+
+                    <table cellspacing="0" class="shop-table">
+
+                        <tbody>
+
+                        <tr class="cart-subtotal">
+                            <th>Subtotal</th>
+                            <td data-title="Subtotal"><span class="">KShs 200.00</span></td>
+                        </tr>
+
+                        <tr class="order-total">
+                            <th>Total</th>
+                            <td data-title="Total"><span class="">KShs 200.00</span></td>
+                        </tr>
+
+
+                        </tbody>
+
+                    </table>
+
+                    <div class="proceed-to-checkout">
+
+                        <a href="checkout.html" class="checkout-button-gold">Proceed to checkout</a>
+                    </div>
+
+
+                </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <footer>
+
+        <div class="footer">
+
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/footer-logo.png"></a>
+                </div>
+
+
+
+                <form>
+                    <h5>Subscribe for updates</h5>
+                    <div class="input-position">
+                        <input type="email" name="Email" placeholder="Email Address">
+                        <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="footer-column">
+                <ul>
+                    <li><a href="about.html">About Medipoint</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+
+
+                <div class="payment-logos">
+                    <h5>YOU CAN BUY WITH</h5>
+                    <ul>
+                        <li><img src="images/payment1.png"></li>
+                        <li><img src="images/payment2.png"></li>
+                        <li><img src="images/payment3.png"></li>
+                        <li><img src="images/payment4.png"></li>
+                        <li><img src="images/payment5.png"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-column">
+
+                <div class="footer-contact">
+                    <h5>Authorized distributor in kenya</h5>
+                    <ul>
+                        <li>Medipoint Phamaceuticals Ltb</li>
+                    </ul>
+                </div>
+
+                <h5>PHONE NUMBER</h5>
+                <ul>
+                    <li>+254202109895 , +254700354372 , +254722514391</li>
+                </ul>
+
+                <div class="footer-contact">
+                    <h5>LOCATION</h5>
+                    <ul>
+                        <li>Agroh House, 3rd Floor- Moi Avenue</li>
+                    </ul>
+                </div>
+
+                <h5>P.O BOX</h5>
+                <ul>
+                    <li>55082-00200 - Nairobi, Kenya</li>
+                </ul>
+
+            </div>
+
+            <div class="copyright">
+                <p>&copy&copy; Crescina 2018</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</div>
+
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

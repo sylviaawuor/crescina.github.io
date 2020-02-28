@@ -1,0 +1,364 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Medipoint / Cart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+</head>
+
+<body>
+<div class="container">
+
+    <header>
+
+        <div class="desktop-header">
+
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png"></a>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="stores.html">Find Stores</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="media.html">Media</a></li>
+                </ul>
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li id="cd-cart-trigger"><a class="cd-img-replace" href=""><span class="fa fa-shopping-cart"></span>Cart</a></li>
+                    <li><a href="callto:0723456789"><span class="fa fa-phone"></span>0723456789</a></li>
+                    <li><a href="mailto:info@medipoint.co.ke "><span class="fa fa-envelope"></span>info@medipoint.co.ke</a></li>
+                    <li class="product-swap"><a href="">Fillerina</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <!--======================================== MOBILE HEADER ===============================================-->
+
+        <div class="mobile-header">
+            <div class="mobile-logo-wrapper">
+                <div class="mobile-logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></div>
+                <input type="checkbox" id="toggle" />
+                <label for="toggle">
+                    <i id="bars" class="mobile-menu-icon fa fa-bars fa-fw"></i>
+                    <i id="cross" class="mobile-menu-icon fa fa-times fa-fw"></i>
+                </label>
+            </div>
+
+
+            <div class="mobile-menu">
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="stores.html">Find Stores</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="cart.html"><span class="fa fa-shopping-cart"></span>Cart</a></li>
+                    <li><a href="callto:0723456789"><span class="fa fa-phone"></span>0723456789</a></li>
+                    <li><a href="mailto:info@medipoint.co.ke "><span class="fa fa-envelope"></span>info@medipoint.co.ke</a></li>
+                    <li class="product-swap"><a href="">Fillerina</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <!--======================================== MOBILE HEADER ===============================================-->
+
+
+
+    </header>
+
+    <section>
+
+        <div class="checkout-wrapper">
+
+                <div class="billing-wrapper">
+                    <div class="billing-details">
+
+                        <h3>BILLING DETAILS</h3>
+                        <form>
+                            <div class="first">
+                                <label>First Name</label>
+                                <input type="text" name="First Name">
+                            </div>
+                            <div class="second">
+
+                                <label>Last Name</label>
+                                <input type="text" name="Last Name">
+                            </div>
+
+
+
+                            <div class="first">
+                                <label>Email Address</label>
+                                <input type="email" name="Email Address">
+                            </div>
+                            <div class="second">
+                                <label>Phone Number</label>
+                                <input type="text" name="Phone Number">
+                            </div>
+
+
+
+                            <div class="user-type">
+                                <label>Address</label>
+                                <input type="text" name="Address" placeholder="Street Address">
+                                <input type="text" name="Address" placeholder="Apartment, suite, unit etc. (optional)">
+                            </div>
+
+                            <div class="user-type">
+                                <label>Town / City</label>
+                                <input type="text" name="Address">
+                            </div>
+
+                            <div class="first">
+                                <label>State / Country</label>
+                                <input type="text" name="State / Country">
+                            </div>
+                            <div class="second">
+                                <label>Postcode / Zip</label>
+                                <input type="text" name="Postcode / Zip">
+                            </div>
+
+
+                            <ul>
+                                <li>Create an account</li>
+                            </ul>
+
+                            <div class="password">
+                                <div class="first">
+                                    <label>Create Password</label>
+                                    <input type="password" name="Password">
+                                </div>
+                                <div class="second">
+
+                                    <label>Confirm Password</label>
+                                    <input type="password" name="Password">
+                                </div>
+                            </div>
+
+
+
+                        </form>
+                    </div>
+                    <div class="different-address">
+
+                        <ul>
+                            <li>SHOP TO A DIFFERENT ADDRESS</li>
+                        </ul>
+
+                        <label>Order Notes</label>
+
+                        <textarea></textarea>
+                    </div>
+
+                    <div class="cart-wrapper">
+                        <h1>Your Order</h1>
+                        <table>
+                            <tr>
+                                <td>Product</td>
+                                <td>Total</td>
+                            </tr>
+
+                            <tr>
+                                <td>Jackets & Coats Hoodies</td>
+                                <td>ksh 190.00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Green Printed Backback</td>
+                                <td>ksh 190.00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Kickers Kick Casual Shoes</td>
+                                <td>ksh 190.00</td>
+                            </tr>
+
+                            <tr>
+                                <td>SUBTOTAL</td>
+                                <td>ksh 190.00</td>
+                            </tr>
+
+                            <tr>
+                                <td>TRANSPORT</td>
+                                <td>
+
+                                    <ul>
+                                        <li>
+                                            <input type="radio" name="iCheck" id="input-3">
+                                            <label for="input-3">Free Transport</label>
+                                        </li>
+
+                                        <li>
+                                            <input type="radio" name="iCheck" id="input-4">
+                                            <label for="input-4">Flat Rate <span>Ksh 190.00</span></label>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>TOTAL</td>
+                                <td>ksh 197.00</td>
+                            </tr>
+
+
+                        </table>
+
+                        <div class="payment">
+                            <ul id="accordion" class="accordion">
+                                <li>
+                                    <div class="link">Direct Bank Transfer</div>
+                                    <div class="submenu">
+                                        <p>Our cleaning services include the dusting of pictures, lampshades, knick-knacks, window sills, furniture, light fixtures and vacuuming throughout. Walls are spot cleaned, cupboard fronts and floors are washed and the kitchen and bathrooms are thoroughly detailed, while gardening is done. Special requests such as appliance cleanings may be arranged for an extra fee. We are here to assist you - please contact our office to discuss your individual cleaning service preferences.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="link">Paypal</div>
+                                    <div class="submenu">
+                                        <p>All equipment and supplies are provided by us. Where safety regulations allow, we will be pleased to accommodate special requests to use your own preferred cleaning supplies.</p>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                            <div class="place-order">
+                                <button type="submit">PLACE ORDER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+        </div>
+
+    </section>
+
+    <div id="cd-cart">
+        <h2>Cart</h2>
+        <ul class="cd-cart-items">
+            <li>
+                <span class="cd-qty">1x</span> Product Name
+                <div class="cd-price">$9.99</div>
+                <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+            </li>
+
+            <li>
+                <span class="cd-qty">2x</span> Product Name
+                <div class="cd-price">$19.98</div>
+                <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+            </li>
+
+            <li>
+                <span class="cd-qty">1x</span> Product Name
+                <div class="cd-price">$9.99</div>
+                <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+            </li>
+        </ul> <!-- cd-cart-items -->
+
+        <div class="cd-cart-total">
+            <p>Total <span>$39.96</span></p>
+        </div> <!-- cd-cart-total -->
+
+        <a href="checkout.html" class="checkout-btn">Checkout</a>
+
+        <p class="cd-go-to-cart"><a href="cart.html">Go to cart page</a></p>
+
+    </div>
+
+    <footer>
+
+        <div class="footer">
+
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/footer-logo.png"></a>
+                </div>
+
+
+
+                <form>
+                    <h5>Subscribe for updates</h5>
+                    <div class="input-position">
+                        <input type="email" name="Email" placeholder="Email Address">
+                        <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="footer-column">
+                <ul>
+                    <li><a href="about.html">About Medipoint</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+
+
+                <div class="payment-logos">
+                    <h5>YOU CAN BUY WITH</h5>
+                    <ul>
+                        <li><img src="images/payment1.png"></li>
+                        <li><img src="images/payment2.png"></li>
+                        <li><img src="images/payment3.png"></li>
+                        <li><img src="images/payment4.png"></li>
+                        <li><img src="images/payment5.png"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-column">
+
+                <div class="footer-contact">
+                    <h5>Authorized distributor in kenya</h5>
+                    <ul>
+                        <li>Medipoint Phamaceuticals Ltb</li>
+                    </ul>
+                </div>
+
+                <h5>PHONE NUMBER</h5>
+                <ul>
+                    <li>+254202109895 , +254700354372 , +254722514391</li>
+                </ul>
+
+                <div class="footer-contact">
+                    <h5>LOCATION</h5>
+                    <ul>
+                        <li>Agroh House, 3rd Floor- Moi Avenue</li>
+                    </ul>
+                </div>
+
+                <h5>P.O BOX</h5>
+                <ul>
+                    <li>55082-00200 - Nairobi, Kenya</li>
+                </ul>
+
+            </div>
+
+            <div class="copyright">
+                <p>&copy&copy; Crescina 2018</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</div>
+
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
